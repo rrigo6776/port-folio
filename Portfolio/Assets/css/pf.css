@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1{
+    font-style: italic;
+}
+
+header nav ul {
+    display:flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 10px 20px;
+    font-style:italic;
+    text-decoration: none;
+    color: black;
+}
+
+.pic {
+    padding: 0px 0px 0px 70px;
+}
+
+.abMe {
+    padding: 20px 0px 10px 72px;
+    display: flex;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.myself {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+      padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content:center;
+}
+
+.myselfpt {
+  padding: 0px 80px 0px 20px;
+  font-size: 23px;
+  font-style: italic;
+  }
